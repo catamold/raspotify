@@ -14,9 +14,9 @@ sudo apt-get -y install raspotify
 
 ## Configuration
 
-Raspotify works out of the box and should be discoverable by Spotify Connect on
-your local network, however you can configure it by editing `/etc/default/raspotify`
-which passes arguments to [librespot](https://github.com/librespot-org/librespot).
+```sudo vim /etc/default/raspotify```
+
+`:wq!` to save and exit
 
 ```
 # /etc/default/raspotify -- Arguments/configuration for librespot
